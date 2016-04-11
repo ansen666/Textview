@@ -16,5 +16,6 @@
 10.TextView设置点击背景
 11.TextView设置上下左右边框
 12.TextView设置圆角跟边框
+13.增加跑马灯效果
 
 博客地址:http://blog.csdn.net/lowprofile_coding/article/details/51092946
