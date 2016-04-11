@@ -29,8 +29,8 @@ public class MainActivity extends Activity {
 		tv8=(TextView) findViewById(R.id.tv8);
 		
 		//如何在程序里面动态赋值  这里可以直接是字符串,也可以是字符串资源id
-		TextView tv0=(TextView) findViewById(R.id.tv0);
-		tv0.setText("如何在程序里面动态赋值");
+//		TextView tv0=(TextView) findViewById(R.id.tv0);
+//		tv0.setText("如何在程序里面动态赋值");
 		
 		//实现多字符串的动态处理
 		tv1.setText(getString(R.string.testing, new Integer[]{11,21,31}));

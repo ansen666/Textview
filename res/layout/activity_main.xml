@@ -11,12 +11,12 @@
         android:background="#FF00FF"
         android:text="设置背景颜色" />
 
-    <TextView
-        android:id="@+id/tv0"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:text="在程序里面动态赋值" />
+<!--     <TextView -->
+<!--         android:id="@+id/tv0" -->
+<!--         android:layout_width="match_parent" -->
+<!--         android:layout_height="wrap_content" -->
+<!--         android:layout_marginTop="10dp" -->
+<!--         android:text="在程序里面动态赋值" /> -->
 
     <TextView
         android:id="@+id/tv1"
@@ -122,5 +122,19 @@
         android:paddingLeft="5dp"
         android:textColor="#000"
         android:text="TextView圆角边框"/>
+    
+    <!--     跑马灯效果 -->
+    <TextView
+        android:id="@+id/tv12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:scrollHorizontally="true"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:singleLine="true"
+        android:text="跑马灯效果 学好android开发就关注公众号  android开发666 经常推送原创文章"/>
 
 </LinearLayout>
