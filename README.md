@@ -35,4 +35,4 @@
 13.增加跑马灯效果
 
 
-[博客地址:](http://blog.csdn.net/lowprofile_coding/article/details/51092946)
+[博客链接](http://blog.csdn.net/lowprofile_coding/article/details/51092946)
