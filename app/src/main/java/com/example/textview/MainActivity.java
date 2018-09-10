@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 //		tv0.setText("如何在程序里面动态赋值");
 		
 		//实现多字符串的动态处理
-		tv1.setText(getString(R.string.testing,new Integer[]{11,21,31}));
+		tv1.setText(getString(R.string.testing,new Object[]{11,21,31}));
 		
 		//TextVie显示html 字体颜色为红色  需要注意不支持html标签的style属性
 		String html="<font color ='red'>TextVie显示html 字体颜色为红色</font><br/>";
